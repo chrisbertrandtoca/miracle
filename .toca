@@ -23,11 +23,6 @@
       "path": "App/6aaa8f0f3611740b4e66a212.app"
     },
     {
-      "type": "GitPageResource",
-      "id": "71cf0be6-8887-4f62-9a24-60f36271c933",
-      "path": "Page/71cf0be6-8887-4f62-9a24-60f36271c933.page"
-    },
-    {
       "type": "GitDatastoreResource",
       "id": "646bff6b-7dba-4dcb-add7-caf4e71265b8",
       "path": "Datastore/646bff6b-7dba-4dcb-add7-caf4e71265b8.datastore"

@@ -3,7 +3,7 @@
     "id": "f1a1007f-0922-4ebd-b7b9-d7aa2e2bc50a",
     "platformVersion": "10.0.0",
     "createdAt": "2026-09-16T12:51:20Z",
-    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "createdBy": "dc8d33b8-9390-4a71-a3d4-05c15f955d6c",
     "schemaVersion": "1.0.0"
   },
   "content": {
@@ -11,7 +11,43 @@
     "description": "asd",
     "botIds": [],
     "version": 1,
-    "actions": [],
+    "actions": [
+      {
+        "name": "Debug Value",
+        "type": "Debug",
+        "version": "1.0.2",
+        "originId": "2fbd031a-07d1-53c4-f318-3e30b9716f82",
+        "actionId": "38df25f9-29f1-45ee-8fc6-a3ca03c65e4b",
+        "actionDefinitionActionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "echo",
+            "type": "String",
+            "value": "\u0022matt\u0022"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
+      }
+    ],
     "variableMappings": [],
     "outputMappings": [],
     "metaData": [],
