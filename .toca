@@ -31,6 +31,11 @@
       "type": "GitDatastoreResource",
       "id": "646bff6b-7dba-4dcb-add7-caf4e71265b8",
       "path": "Datastore/646bff6b-7dba-4dcb-add7-caf4e71265b8.datastore"
+    },
+    {
+      "type": "GitActivityResource",
+      "id": "f1a1007f-0922-4ebd-b7b9-d7aa2e2bc50a",
+      "path": "Activity/f1a1007f-0922-4ebd-b7b9-d7aa2e2bc50a.activity"
     }
   ],
   "environmentMappings": []
