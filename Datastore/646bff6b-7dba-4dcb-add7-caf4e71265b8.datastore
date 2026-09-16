@@ -92,7 +92,8 @@
             "isPrimaryKey": false,
             "constraints": {
               "isUnique": false,
-              "isNotNull": false
+              "isNotNull": false,
+              "dataType": "Date"
             }
           }
         },
@@ -118,15 +119,6 @@
     ],
     "tableMigrations": [
       {
-        "revisionId": "01a0aa3f-835f-7079-979b-e3b6d85c8bf1",
-        "tableName": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
-        "created": "2026-09-16T12:44:44Z",
-        "upSql": "ALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 ADD COLUMN IF NOT EXISTS \u0060year_REleased\u0060 DATE NULL;\n",
-        "upFriendlyName": "Add column \u0060year_REleased\u0060 to table \u0060Songs\u0060",
-        "downSql": "ALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 DROP COLUMN IF EXISTS \u0060year_REleased\u0060;",
-        "downFriendlyName": "Drop column \u0060year_REleased\u0060 from table \u0060Songs\u0060"
-      },
-      {
         "revisionId": "01a0aa3f-5479-77f6-b117-73a41ad8f193",
         "tableName": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
         "created": "2026-09-16T12:44:32Z",
@@ -134,6 +126,15 @@
         "upFriendlyName": "Add column \u0060name\u0060 to table \u0060Songs\u0060",
         "downSql": "ALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 DROP COLUMN IF EXISTS \u0060name\u0060;",
         "downFriendlyName": "Drop column \u0060name\u0060 from table \u0060Songs\u0060"
+      },
+      {
+        "revisionId": "01a0aa3f-835f-7079-979b-e3b6d85c8bf1",
+        "tableName": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
+        "created": "2026-09-16T12:44:44Z",
+        "upSql": "ALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 ADD COLUMN IF NOT EXISTS \u0060year_REleased\u0060 DATE NULL;\n",
+        "upFriendlyName": "Add column \u0060year_REleased\u0060 to table \u0060Songs\u0060",
+        "downSql": "ALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 DROP COLUMN IF EXISTS \u0060year_REleased\u0060;",
+        "downFriendlyName": "Drop column \u0060year_REleased\u0060 from table \u0060Songs\u0060"
       }
     ],
     "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
