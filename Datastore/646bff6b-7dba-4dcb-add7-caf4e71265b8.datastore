@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "id": "646bff6b-7dba-4dcb-add7-caf4e71265b8",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-09-16T12:44:09Z",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "uuid": "646bff6b-7dba-4dcb-add7-caf4e71265b8",
+    "description": "asd",
+    "datastoreType": "Internal",
+    "datastoreParameters": [
+      {
+        "datastoreId": "646bff6b-7dba-4dcb-add7-caf4e71265b8",
+        "uuid": "01a0aa3e-fbad-75ed-b255-afe6e12b9009",
+        "key": "fileDrive",
+        "type": "FilesLocator",
+        "value": "{\u0022type\u0022:\u0022ObjectStore\u0022}",
+        "revision": "01a0aa3e-fbb0-7496-a537-bd45996896e7"
+      },
+      {
+        "datastoreId": "646bff6b-7dba-4dcb-add7-caf4e71265b8",
+        "uuid": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
+        "key": "Songs",
+        "type": "TableV3",
+        "value": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
+        "revision": "01a0aa3f-835f-7079-979b-e3b6d85c8bf1"
+      }
+    ],
+    "tables": [
+      {
+        "id": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
+        "name": "Songs",
+        "datastoreParameterId": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
+        "model": {
+          "id": {
+            "name": "id",
+            "label": "id",
+            "type": "uuid",
+            "isPrimaryKey": true,
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": true,
+              "dataType": "Uuid"
+            }
+          },
+          "created": {
+            "name": "created",
+            "label": "Created",
+            "type": "datetime",
+            "isPrimaryKey": false,
+            "metaData": {
+              "autoGenerate": true
+            },
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false,
+              "dataType": "DateTime"
+            }
+          },
+          "updated": {
+            "name": "updated",
+            "label": "Updated",
+            "type": "datetime",
+            "isPrimaryKey": false,
+            "metaData": {
+              "autoGenerate": true,
+              "autoUpdate": true
+            },
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false,
+              "dataType": "DateTime"
+            }
+          },
+          "name": {
+            "name": "name",
+            "label": "Name",
+            "type": "string",
+            "isPrimaryKey": false,
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false,
+              "dataType": "Text"
+            }
+          },
+          "year_REleased": {
+            "name": "year_REleased",
+            "label": "Year REleased",
+            "type": "date",
+            "isPrimaryKey": false,
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false
+            }
+          }
+        },
+        "relationships": [],
+        "selectQuery": "SELECT c.\u0060created\u0060 AS \u0027c.created\u0027,c.\u0060id\u0060 AS \u0027c.id\u0027,c.\u0060name\u0060 AS \u0027c.name\u0027,c.\u0060updated\u0060 AS \u0027c.updated\u0027,c.\u0060year_REleased\u0060 AS \u0027c.year_REleased\u0027 FROM \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 c",
+        "nonRecursiveSelectQuery": "SELECT c.* FROM \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 c ",
+        "indexes": [
+          {
+            "name": "PRIMARY",
+            "columns": {
+              "id": "Ascending"
+            },
+            "unique": true,
+            "type": "BTree"
+          }
+        ],
+        "position": [
+          1,
+          40
+        ],
+        "revision": "01a0aa3f-835f-7079-979b-e3b6d85c8bf1"
+      }
+    ],
+    "tableMigrations": [
+      {
+        "revisionId": "01a0aa3f-835f-7079-979b-e3b6d85c8bf1",
+        "tableName": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
+        "created": "2026-09-16T12:44:44Z",
+        "upSql": "ALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 ADD COLUMN IF NOT EXISTS \u0060year_REleased\u0060 DATE NULL;\n",
+        "upFriendlyName": "Add column \u0060year_REleased\u0060 to table \u0060Songs\u0060",
+        "downSql": "ALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 DROP COLUMN IF EXISTS \u0060year_REleased\u0060;",
+        "downFriendlyName": "Drop column \u0060year_REleased\u0060 from table \u0060Songs\u0060"
+      },
+      {
+        "revisionId": "01a0aa3f-5479-77f6-b117-73a41ad8f193",
+        "tableName": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
+        "created": "2026-09-16T12:44:32Z",
+        "upSql": "ALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 ADD COLUMN IF NOT EXISTS \u0060name\u0060 TEXT CHARACTER SET utf8mb4 NULL;\n",
+        "upFriendlyName": "Add column \u0060name\u0060 to table \u0060Songs\u0060",
+        "downSql": "ALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 DROP COLUMN IF EXISTS \u0060name\u0060;",
+        "downFriendlyName": "Drop column \u0060name\u0060 from table \u0060Songs\u0060"
+      }
+    ],
+    "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
+    "resourceId": "646bff6b-7dba-4dcb-add7-caf4e71265b8",
+    "name": "Data 1"
+  }
+}

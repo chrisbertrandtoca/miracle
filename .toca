@@ -1,4 +1,37 @@
 {
   "version": 1,
-  "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4"
+  "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
+  "resources": [
+    {
+      "type": "GitWorkspaceResource",
+      "id": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
+      "path": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4.workspace"
+    },
+    {
+      "type": "GitProjectResource",
+      "id": "c12ad3d9-568d-4eab-91b2-c912f064b4b8",
+      "path": "Project/c12ad3d9-568d-4eab-91b2-c912f064b4b8.project"
+    },
+    {
+      "type": "GitActivityResource",
+      "id": "65ad7d51-0df5-4518-bc34-fd3a005488c8",
+      "path": "Activity/65ad7d51-0df5-4518-bc34-fd3a005488c8.activity"
+    },
+    {
+      "type": "GitAppResource",
+      "id": "6aaa8f0f3611740b4e66a212",
+      "path": "App/6aaa8f0f3611740b4e66a212.app"
+    },
+    {
+      "type": "GitPageResource",
+      "id": "71cf0be6-8887-4f62-9a24-60f36271c933",
+      "path": "Page/71cf0be6-8887-4f62-9a24-60f36271c933.page"
+    },
+    {
+      "type": "GitDatastoreResource",
+      "id": "646bff6b-7dba-4dcb-add7-caf4e71265b8",
+      "path": "Datastore/646bff6b-7dba-4dcb-add7-caf4e71265b8.datastore"
+    }
+  ],
+  "environmentMappings": []
 }
