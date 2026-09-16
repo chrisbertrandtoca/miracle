@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "id": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-09-16T12:43:17Z",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "id": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
+    "accent": "#2ce642",
+    "route": "tocas-miracle",
+    "description": "Workspace for fun",
+    "cmsEnabled": false,
+    "versioning": true,
+    "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
+    "resourceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
+    "name": "Tocas Miracle"
+  }
+}
