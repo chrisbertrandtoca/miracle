@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "bf6073c5-8608-425d-b4fc-ebb8b4e56689",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-09-16T15:57:48Z",
+    "createdBy": "dc8d33b8-9390-4a71-a3d4-05c15f955d6c",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "pageId": "bf6073c5-8608-425d-b4fc-ebb8b4e56689",
+    "dashBoardId": "6aaa8f0f3611740b4e66a212",
+    "title": "page 2",
+    "layout": "{\u0022version\u0022:\u00222\u0022,\u0022rootComponentId\u0022:\u00225dbe988e-b3cd-4c63-b0cb-8e661136736e\u0022,\u0022components\u0022:{\u00225dbe988e-b3cd-4c63-b0cb-8e661136736e\u0022:{\u0022id\u0022:\u00225dbe988e-b3cd-4c63-b0cb-8e661136736e\u0022,\u0022definitionId\u0022:\u0022@tocabot/app/page-root\u0022,\u0022options\u0022:{},\u0022slots\u0022:{\u0022root\u0022:[\u0022e624909b-a812-482e-8860-a7f47463a487\u0022]},\u0022classes\u0022:{\u0022root\u0022:[]}},\u0022e624909b-a812-482e-8860-a7f47463a487\u0022:{\u0022id\u0022:\u0022e624909b-a812-482e-8860-a7f47463a487\u0022,\u0022name\u0022:\u0022Flex Layout_yBah\u0022,\u0022definitionId\u0022:\u0022c86e9279-7213-4e99-9646-c65f9c98b9ca\u0022,\u0022slots\u0022:{\u0022root\u0022:[\u0022c4af6e5d-b07f-4bd1-a605-8a853019ad6a\u0022]},\u0022options\u0022:{\u0022spaceBetween\u0022:0,\u0022align\u0022:\u0022stretch\u0022,\u0022justify\u0022:\u0022start\u0022,\u0022direction\u0022:1},\u0022slotProps\u0022:{},\u0022classes\u0022:{\u0022root\u0022:[]}},\u0022c4af6e5d-b07f-4bd1-a605-8a853019ad6a\u0022:{\u0022id\u0022:\u0022c4af6e5d-b07f-4bd1-a605-8a853019ad6a\u0022,\u0022name\u0022:\u0022Card_unrf\u0022,\u0022definitionId\u0022:\u0022000fb580-28fa-4798-a568-504aef84b5d2\u0022,\u0022slots\u0022:{\u0022root\u0022:[]},\u0022options\u0022:{\u0022showHeader\u0022:true,\u0022title\u0022:\u0022Card title\u0022,\u0022subheader\u0022:[{\u0022kind\u0022:\u0022text\u0022,\u0022text\u0022:\u0022adsasd\u0022}],\u0022outlined\u0022:false},\u0022slotProps\u0022:{},\u0022classes\u0022:{\u0022root\u0022:[]}}},\u0022viewports\u0022:{\u0022414\u0022:[],\u0022768\u0022:[],\u00221280\u0022:[],\u00221440\u0022:[]}}",
+    "parameters": [],
+    "deleted": false,
+    "version": "0.0.0",
+    "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
+    "resourceId": "bf6073c5-8608-425d-b4fc-ebb8b4e56689",
+    "name": "page 2"
+  }
+}

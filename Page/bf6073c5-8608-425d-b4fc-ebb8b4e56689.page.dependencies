@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "actionDetails": [],
+    "componentDetails": [
+      {
+        "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+        "name": "Flex Layout",
+        "version": "0.0.6"
+      },
+      {
+        "definitionId": "000fb580-28fa-4798-a568-504aef84b5d2",
+        "name": "Card",
+        "version": "0.0.5"
+      }
+    ],
+    "appActionsDetails": []
+  }
+}
