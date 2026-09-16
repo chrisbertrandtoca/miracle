@@ -38,5 +38,14 @@
       "path": "Activity/f1a1007f-0922-4ebd-b7b9-d7aa2e2bc50a.activity"
     }
   ],
-  "environmentMappings": []
+  "environmentMappings": [
+    {
+      "resourceType": "Bot",
+      "aliasKey": "bot-Nightly-Bot-0001",
+      "aliasValue": "alias:bot-Nightly-Bot-0001",
+      "referencedByResourceIds": [
+        "65ad7d51-0df5-4518-bc34-fd3a005488c8"
+      ]
+    }
+  ]
 }

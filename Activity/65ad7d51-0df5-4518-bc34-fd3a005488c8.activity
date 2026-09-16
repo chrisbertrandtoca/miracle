@@ -3,20 +3,58 @@
     "id": "65ad7d51-0df5-4518-bc34-fd3a005488c8",
     "platformVersion": "10.0.0",
     "createdAt": "2026-09-16T12:43:48Z",
-    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "createdBy": "dc8d33b8-9390-4a71-a3d4-05c15f955d6c",
     "schemaVersion": "1.0.0"
   },
   "content": {
     "projectId": "c12ad3d9-568d-4eab-91b2-c912f064b4b8",
     "description": "asd",
-    "botIds": [],
+    "botIds": [
+      "alias:bot-Nightly-Bot-0001"
+    ],
     "version": 1,
-    "actions": [],
+    "actions": [
+      {
+        "name": "Debug Value",
+        "type": "Debug",
+        "version": "1.0.2",
+        "originId": "2fbd031a-07d1-53c4-f318-3e30b9716f82",
+        "actionId": "ddf38b96-f12e-4755-a4f0-10bcf6429ca7",
+        "actionDefinitionActionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "echo",
+            "type": "String",
+            "value": "\u0022asdasd\u0022"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
+      }
+    ],
     "variableMappings": [],
     "outputMappings": [],
     "metaData": [],
     "deleted": false,
-    "activityServiceType": "Stateless",
+    "activityServiceType": "Gui",
     "migratedToBotUuid": false,
     "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
     "resourceId": "65ad7d51-0df5-4518-bc34-fd3a005488c8",
