@@ -1,12 +1,6 @@
 {
   "dependencies": {
-    "actionDetails": [
-      {
-        "definitionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
-        "name": "Debug Value",
-        "version": "1.0.2"
-      }
-    ],
+    "actionDetails": [],
     "componentDetails": [],
     "appActionsDetails": []
   }
