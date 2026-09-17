@@ -2,9 +2,9 @@
   "dependencies": {
     "actionDetails": [
       {
-        "definitionId": "abbddef1-36a3-4b55-a0ad-50a5aff07f9c",
+        "definitionId": "53f31b60-347e-4e24-a9e5-5f79862f0e8c",
         "name": "Delete Table Row(s)",
-        "version": "4.0.0"
+        "version": "3.0.4"
       }
     ],
     "componentDetails": [],

@@ -13,10 +13,10 @@
       {
         "name": "Delete Table Row(s)",
         "type": "DeleteRows",
-        "version": "4.0.0",
+        "version": "3.0.4",
         "originId": "8e98798c-cc6b-d45c-5803-98363b53da8d",
         "actionId": "43b712c1-3d36-44ea-9c56-f4b213e3daac",
-        "actionDefinitionActionId": "abbddef1-36a3-4b55-a0ad-50a5aff07f9c",
+        "actionDefinitionActionId": "53f31b60-347e-4e24-a9e5-5f79862f0e8c",
         "disabled": false,
         "created": "0001-01-01T00:00:00Z",
         "updated": "0001-01-01T00:00:00Z",
