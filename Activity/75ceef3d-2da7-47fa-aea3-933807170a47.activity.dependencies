@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "actionDetails": [
+      {
+        "definitionId": "abbddef1-36a3-4b55-a0ad-50a5aff07f9c",
+        "name": "Delete Table Row(s)",
+        "version": "4.0.0"
+      }
+    ],
+    "componentDetails": [],
+    "appActionsDetails": []
+  }
+}

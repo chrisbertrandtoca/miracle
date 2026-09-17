@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "id": "75ceef3d-2da7-47fa-aea3-933807170a47",
+    "platformVersion": "10.0.0",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "c12ad3d9-568d-4eab-91b2-c912f064b4b8",
+    "description": "ad",
+    "botIds": [],
+    "version": 1,
+    "actions": [
+      {
+        "name": "Delete Table Row(s)",
+        "type": "DeleteRows",
+        "version": "4.0.0",
+        "originId": "8e98798c-cc6b-d45c-5803-98363b53da8d",
+        "actionId": "879962bc-db3f-4141-be62-5a199e40d530",
+        "actionDefinitionActionId": "abbddef1-36a3-4b55-a0ad-50a5aff07f9c",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "table",
+            "type": "TableV3",
+            "value": "\u0022\u00A3\u00A3!646bff6b-7dba-4dcb-add7-caf4e71265b8:Songs\u00A3\u00A3\u0022"
+          },
+          {
+            "key": "queryString",
+            "type": "Query",
+            "value": "[{\u0022field\u0022:\u0022id\u0022,\u0022operator\u0022:\u0022=\u0022,\u0022value\u0022:\u0022123\u0022,\u0022caseSensitive\u0022:false}]"
+          },
+          {
+            "key": "yield",
+            "type": "Number"
+          },
+          {
+            "key": "offSet",
+            "type": "Number"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "redacted",
+            "type": "Boolean",
+            "value": "false"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": [
+          {
+            "datastoreId": "646bff6b-7dba-4dcb-add7-caf4e71265b8",
+            "variableName": "Songs"
+          }
+        ]
+      }
+    ],
+    "variableMappings": [],
+    "outputMappings": [],
+    "metaData": [],
+    "deleted": false,
+    "activityServiceType": "Stateless",
+    "migratedToBotUuid": false,
+    "datastoreReferences": [
+      {
+        "datastoreId": "646bff6b-7dba-4dcb-add7-caf4e71265b8",
+        "variableName": "Songs"
+      }
+    ],
+    "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
+    "resourceId": "75ceef3d-2da7-47fa-aea3-933807170a47",
+    "name": "delete rows"
+  }
+}
