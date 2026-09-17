@@ -11,7 +11,7 @@
     "version": 1,
     "actions": [
       {
-        "name": "Delete Table Rows",
+        "name": "Delete Table Rowssss",
         "type": "DeleteRows",
         "version": "3.0.4",
         "originId": "8e98798c-cc6b-d45c-5803-98363b53da8d",
