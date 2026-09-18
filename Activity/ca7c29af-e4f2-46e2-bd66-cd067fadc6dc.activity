@@ -35,7 +35,7 @@
           {
             "key": "yield",
             "type": "Number",
-            "value": "null"
+            "value": "1"
           },
           {
             "key": "offSet",
