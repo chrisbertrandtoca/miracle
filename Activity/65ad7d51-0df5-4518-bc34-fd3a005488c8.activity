@@ -117,7 +117,7 @@
           {
             "key": "echo",
             "type": "String",
-            "value": "\u0022grass\u0022"
+            "value": "\u0022grasss\u0022"
           },
           {
             "key": "failOnError",
