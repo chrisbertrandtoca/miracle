@@ -11,7 +11,7 @@
     "version": 1,
     "actions": [
       {
-        "name": "Delete rows of songs",
+        "name": "Delete all the rows of songs",
         "type": "DeleteRows",
         "version": "3.0.4",
         "originId": "8e98798c-cc6b-d45c-5803-98363b53da8d",
@@ -30,7 +30,7 @@
           {
             "key": "queryString",
             "type": "Query",
-            "value": "[{\u0022field\u0022:\u0022id\u0022,\u0022operator\u0022:\u0022=\u0022,\u0022value\u0022:\u00222\u0022,\u0022caseSensitive\u0022:false}]"
+            "value": "[{\u0022field\u0022:\u0022id\u0022,\u0022operator\u0022:\u0022=\u0022,\u0022value\u0022:\u00223\u0022,\u0022caseSensitive\u0022:false}]"
           },
           {
             "key": "yield",
