@@ -2,15 +2,13 @@
   "metadata": {
     "id": "65ad7d51-0df5-4518-bc34-fd3a005488c8",
     "platformVersion": "10.0.0",
-    "createdAt": "2026-09-16T12:43:48Z",
-    "createdBy": "dc8d33b8-9390-4a71-a3d4-05c15f955d6c",
     "schemaVersion": "1.0.0"
   },
   "content": {
     "projectId": "c12ad3d9-568d-4eab-91b2-c912f064b4b8",
     "description": "asd",
     "botIds": [
-      "alias:bot-Nightly-Bot-0001"
+      "alias:bot-Beta-Bot-0002"
     ],
     "version": 1,
     "actions": [
