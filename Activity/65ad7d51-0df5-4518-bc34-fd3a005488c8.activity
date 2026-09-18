@@ -48,6 +48,61 @@
         "status": 0,
         "breakPoint": "None",
         "datastoreReferences": []
+      },
+      {
+        "name": "C#",
+        "type": "ExecuteCSharp",
+        "version": "1.0.5",
+        "originId": "1623378d-6291-97ee-efc7-0dbb745398ee",
+        "actionId": "47a84fc9-3a6d-4050-932d-9b6b8bbf4985",
+        "actionDefinitionActionId": "89d89be6-4d2c-44e0-8f63-e4ea5b53e3bf",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "command-chip",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "command",
+            "type": "String",
+            "value": "\u0022//\u0022"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "redacted",
+            "type": "Boolean",
+            "value": "false"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
       }
     ],
     "variableMappings": [],
