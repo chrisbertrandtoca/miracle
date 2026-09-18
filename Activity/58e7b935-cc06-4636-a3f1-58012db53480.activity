@@ -80,7 +80,7 @@
           {
             "key": "echo",
             "type": "String",
-            "value": "\u0022aaa\u0022"
+            "value": "\u0022aaasda price\u0022"
           },
           {
             "key": "failOnError",
