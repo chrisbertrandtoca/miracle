@@ -5,6 +5,11 @@
         "definitionId": "53f31b60-347e-4e24-a9e5-5f79862f0e8c",
         "name": "Delete Table Row(s)",
         "version": "3.0.4"
+      },
+      {
+        "definitionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+        "name": "Debug Value",
+        "version": "1.0.2"
       }
     ],
     "componentDetails": [],
