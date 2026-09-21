@@ -122,6 +122,81 @@
         "status": 0,
         "breakPoint": "None",
         "datastoreReferences": []
+      },
+      {
+        "name": "Add Row to Table",
+        "type": "AddRowToTable",
+        "version": "1.0.4",
+        "originId": "d4cefa9a-ddf8-4a65-1ef1-fdc6090af4ba",
+        "actionId": "caf58214-562e-4af0-9ad7-297fc1d256ca",
+        "actionDefinitionActionId": "4fbb74ba-188c-48e2-a25b-2a2808665cdf",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "multiplePerms",
+            "type": "String",
+            "value": "\u0022single\u0022"
+          },
+          {
+            "key": "userId",
+            "type": "String",
+            "value": "\u0022\u0022"
+          },
+          {
+            "key": "permission",
+            "type": "String",
+            "value": "\u0022\u0022"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "redacted",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "target",
+            "type": "String",
+            "value": "\u0022tablesidecar\u0022"
+          },
+          {
+            "key": "tableName",
+            "type": "String",
+            "value": "\u0022test\u0022"
+          },
+          {
+            "key": "rowArray",
+            "type": "Array",
+            "value": "[{\u0022type\u0022:\u0022string\u0022,\u0022key\u0022:\u0022d8dcd11d-39e2-4350-a54d-c2071e3f0727\u0022,\u0022value\u0022:\u0022aaa\u0022}]"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
       }
     ],
     "variableMappings": [],

@@ -10,6 +10,11 @@
         "definitionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
         "name": "Debug Value",
         "version": "1.0.2"
+      },
+      {
+        "definitionId": "4fbb74ba-188c-48e2-a25b-2a2808665cdf",
+        "name": "Add Row to Table",
+        "version": "1.0.4"
       }
     ],
     "componentDetails": [],
