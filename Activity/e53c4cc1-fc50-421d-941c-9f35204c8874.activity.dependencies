@@ -5,6 +5,11 @@
         "definitionId": "11708db2-3194-4af8-bbcb-cabaa5fb62e9",
         "name": "Get Table Data",
         "version": "5.0.0"
+      },
+      {
+        "definitionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+        "name": "Debug Value",
+        "version": "1.0.2"
       }
     ],
     "componentDetails": [],

@@ -87,6 +87,41 @@
             "variableName": "Songs"
           }
         ]
+      },
+      {
+        "name": "Debug Value",
+        "type": "Debug",
+        "version": "1.0.2",
+        "originId": "2fbd031a-07d1-53c4-f318-3e30b9716f82",
+        "actionId": "eff6df9b-6356-4ce5-8326-d63949f9682d",
+        "actionDefinitionActionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "echo",
+            "type": "String",
+            "value": "\u0022gooo\u0022"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
       }
     ],
     "variableMappings": [],
