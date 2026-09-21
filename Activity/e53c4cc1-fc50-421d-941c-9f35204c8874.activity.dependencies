@@ -2,9 +2,9 @@
   "dependencies": {
     "actionDetails": [
       {
-        "definitionId": "a62ecaca-85b3-4f5d-b00b-d6cdc7023daa",
-        "name": "Repeat",
-        "version": "1.0.4"
+        "definitionId": "f047f456-c20b-4b7f-bf73-510a3595c9b3",
+        "name": "Get Table Data",
+        "version": "5.0.1"
       }
     ],
     "componentDetails": [],

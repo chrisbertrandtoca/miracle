@@ -13,6 +13,7 @@
     "description": "Workspace for fun",
     "cmsEnabled": false,
     "versioning": true,
+    "repositoryUrl": "https://github.com/chrisbertrandtoca/miracle.git",
     "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
     "resourceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
     "name": "Tocas Miracle"
