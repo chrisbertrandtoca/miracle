@@ -51,11 +51,6 @@
       "type": "GitActivityResource",
       "id": "adfab3eb-19f1-4b3a-827f-ca158c1e3651",
       "path": "Activity/adfab3eb-19f1-4b3a-827f-ca158c1e3651.activity"
-    },
-    {
-      "type": "GitActivityResource",
-      "id": "e53c4cc1-fc50-421d-941c-9f35204c8874",
-      "path": "Activity/e53c4cc1-fc50-421d-941c-9f35204c8874.activity"
     }
   ],
   "environmentMappings": [
