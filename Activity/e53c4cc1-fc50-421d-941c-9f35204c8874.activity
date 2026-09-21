@@ -13,10 +13,10 @@
       {
         "name": "Get Table Data",
         "type": "GetTableData",
-        "version": "5.0.1",
+        "version": "5.0.0",
         "originId": "9c4acb40-dcaf-af0c-059e-aa2196eebfbe",
         "actionId": "f3cce086-3b4c-4776-aa84-dbb8d89ab809",
-        "actionDefinitionActionId": "f047f456-c20b-4b7f-bf73-510a3595c9b3",
+        "actionDefinitionActionId": "11708db2-3194-4af8-bbcb-cabaa5fb62e9",
         "disabled": false,
         "created": "0001-01-01T00:00:00Z",
         "updated": "0001-01-01T00:00:00Z",
