@@ -24,18 +24,15 @@
         "parameters": [
           {
             "key": "password",
-            "type": "Password",
             "value": "\u0022\u00A3\u00A3646bff6b-7dba-4dcb-add7-caf4e71265b8:pw\u00A3\u00A3\u0022"
           },
           {
-            "key": "timeout",
             "type": "Number",
             "value": "30000"
           },
           {
             "key": "redacted",
             "type": "Boolean",
-            "value": "true"
           },
           {
             "key": "errorOnTimeout",
@@ -43,9 +40,7 @@
             "value": "false"
           },
           {
-            "key": "failOnError",
             "type": "Boolean",
-            "value": "true"
           }
         ],
         "actions": [],
