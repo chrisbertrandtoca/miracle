@@ -2,8 +2,6 @@
   "metadata": {
     "id": "6aaa8f0f3611740b4e66a212",
     "platformVersion": "10.0.0",
-    "createdAt": "2026-09-16T12:43:59Z",
-    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
     "schemaVersion": "1.0.0"
   },
   "content": {
@@ -20,6 +18,44 @@
         "hidden": false,
         "restricted": false,
         "parameters": []
+      },
+      {
+        "id": "cc92de4d-8909-4130-bbf0-db8b151bd9e2",
+        "pageId": "6ab39931d030e385c21e640a",
+        "pageEntityId": "e4a78f28-3810-4af8-96a2-221f909893d2",
+        "slug": "new",
+        "name": "New",
+        "hidden": false,
+        "restricted": false,
+        "parameters": [
+          {
+            "key": "modalFullHeight",
+            "type": "boolean",
+            "value": "false"
+          },
+          {
+            "key": "modalWidth",
+            "type": "string",
+            "value": "\u0022lg\u0022"
+          },
+          {
+            "key": "dynamic",
+            "type": "boolean",
+            "value": "false"
+          },
+          {
+            "key": "dynamicSource",
+            "type": "parameter"
+          },
+          {
+            "key": "dynamicKey",
+            "type": "string"
+          },
+          {
+            "key": "modalTitle",
+            "type": "boolean"
+          }
+        ]
       }
     ],
     "dependencies": [],
