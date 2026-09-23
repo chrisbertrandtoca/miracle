@@ -20,11 +20,11 @@
         "parameters": []
       },
       {
-        "id": "cc92de4d-8909-4130-bbf0-db8b151bd9e2",
-        "pageId": "6ab39931d030e385c21e640a",
-        "pageEntityId": "e4a78f28-3810-4af8-96a2-221f909893d2",
-        "slug": "new",
-        "name": "New",
+        "id": "a401c35a-6e74-44c8-8cd8-bc1bc8735215",
+        "pageId": "6ab3d1a9d030e385c21e6653",
+        "pageEntityId": "a9c79fec-b490-41a9-a9f2-7d9cec6e00c6",
+        "slug": "new-file",
+        "name": "new file",
         "hidden": false,
         "restricted": false,
         "parameters": [
