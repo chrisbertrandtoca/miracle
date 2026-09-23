@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "actionDetails": [],
+    "componentDetails": [
+      {
+        "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+        "name": "Flex Layout",
+        "version": "0.0.6"
+      }
+    ],
+    "appActionsDetails": []
+  }
+}
