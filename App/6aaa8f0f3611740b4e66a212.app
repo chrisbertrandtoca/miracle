@@ -56,6 +56,44 @@
             "type": "boolean"
           }
         ]
+      },
+      {
+        "id": "1ba97d11-c1ae-438a-8baf-a46f2710dc8d",
+        "pageId": "6ab3d1cbd030e385c21e6654",
+        "pageEntityId": "b3e309a4-0b92-4c2d-98e1-90d7ce58422a",
+        "slug": "added",
+        "name": "added",
+        "hidden": false,
+        "restricted": false,
+        "parameters": [
+          {
+            "key": "modalFullHeight",
+            "type": "boolean",
+            "value": "false"
+          },
+          {
+            "key": "modalWidth",
+            "type": "string",
+            "value": "\u0022lg\u0022"
+          },
+          {
+            "key": "dynamic",
+            "type": "boolean",
+            "value": "false"
+          },
+          {
+            "key": "dynamicSource",
+            "type": "parameter"
+          },
+          {
+            "key": "dynamicKey",
+            "type": "string"
+          },
+          {
+            "key": "modalTitle",
+            "type": "boolean"
+          }
+        ]
       }
     ],
     "dependencies": [],
