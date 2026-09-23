@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "id": "e4a78f28-3810-4af8-96a2-221f909893d2",
+    "platformVersion": "10.0.0",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "pageId": "e4a78f28-3810-4af8-96a2-221f909893d2",
+    "dashBoardId": "6aaa8f0f3611740b4e66a212",
+    "title": "New",
+    "layout": "{\u0022version\u0022:\u00222\u0022,\u0022rootComponentId\u0022:\u0022c8cf1f6d-a6b1-4cda-9394-8f3653c68b36\u0022,\u0022components\u0022:{\u0022c8cf1f6d-a6b1-4cda-9394-8f3653c68b36\u0022:{\u0022id\u0022:\u0022c8cf1f6d-a6b1-4cda-9394-8f3653c68b36\u0022,\u0022definitionId\u0022:\u0022@tocabot/app/page-root\u0022,\u0022options\u0022:{},\u0022slots\u0022:{\u0022root\u0022:[]},\u0022classes\u0022:{\u0022root\u0022:[]}}},\u0022viewports\u0022:{\u0022414\u0022:[],\u0022768\u0022:[],\u00221280\u0022:[],\u00221440\u0022:[]}}",
+    "parameters": [],
+    "deleted": false,
+    "version": "0.0.0",
+    "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
+    "resourceId": "e4a78f28-3810-4af8-96a2-221f909893d2",
+    "name": "New"
+  }
+}
