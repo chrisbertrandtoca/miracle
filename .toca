@@ -41,13 +41,18 @@
       "type": "GitActivityResource",
       "id": "adfab3eb-19f1-4b3a-827f-ca158c1e3651",
       "path": "Activity/adfab3eb-19f1-4b3a-827f-ca158c1e3651.activity"
+    },
+    {
+      "type": "GitActivityResource",
+      "id": "65ad7d51-0df5-4518-bc34-fd3a005488c8",
+      "path": "Activity/65ad7d51-0df5-4518-bc34-fd3a005488c8.activity"
     }
   ],
   "environmentMappings": [
     {
       "resourceType": "Bot",
-      "aliasKey": "bot-bot-1",
-      "aliasValue": "alias:bot-bot-1",
+      "aliasKey": "bot-Nightly-Bot-0001",
+      "aliasValue": "alias:bot-Nightly-Bot-0001",
       "referencedByResourceIds": [
         "65ad7d51-0df5-4518-bc34-fd3a005488c8"
       ]

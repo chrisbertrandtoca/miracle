@@ -2,13 +2,15 @@
   "metadata": {
     "id": "65ad7d51-0df5-4518-bc34-fd3a005488c8",
     "platformVersion": "10.0.0",
+    "createdAt": "2026-09-16T12:43:48Z",
+    "createdBy": "dc8d33b8-9390-4a71-a3d4-05c15f955d6c",
     "schemaVersion": "1.0.0"
   },
   "content": {
-    "projectId": "Bc12ad3d9-568d-4eab-91b2-c912f064b4b8",
+    "projectId": "c12ad3d9-568d-4eab-91b2-c912f064b4b8",
     "description": "asd",
     "botIds": [
-      "alias:bot-Beta-Bot-0002"
+      "alias:bot-Nightly-Bot-0001"
     ],
     "version": 1,
     "actions": [
@@ -28,96 +30,6 @@
             "key": "echo",
             "type": "String",
             "value": "\u0022asdasd\u0022"
-          },
-          {
-            "key": "failOnError",
-            "type": "Boolean",
-            "value": "true"
-          }
-        ],
-        "actions": [],
-        "context": [],
-        "tables": [],
-        "lists": [],
-        "variableMappings": [],
-        "variables": [],
-        "results": [],
-        "logs": [],
-        "status": 0,
-        "breakPoint": "None",
-        "datastoreReferences": []
-      },
-      {
-        "name": "C#",
-        "type": "ExecuteCSharp",
-        "version": "1.0.5",
-        "originId": "1623378d-6291-97ee-efc7-0dbb745398ee",
-        "actionId": "47a84fc9-3a6d-4050-932d-9b6b8bbf4985",
-        "actionDefinitionActionId": "89d89be6-4d2c-44e0-8f63-e4ea5b53e3bf",
-        "disabled": false,
-        "created": "0001-01-01T00:00:00Z",
-        "updated": "0001-01-01T00:00:00Z",
-        "isDeactivated": false,
-        "parameters": [
-          {
-            "key": "command-chip",
-            "type": "Boolean",
-            "value": "false"
-          },
-          {
-            "key": "command",
-            "type": "String",
-            "value": "\u0022//\u0022"
-          },
-          {
-            "key": "timeout",
-            "type": "Number",
-            "value": "30000"
-          },
-          {
-            "key": "errorOnTimeout",
-            "type": "Boolean",
-            "value": "true"
-          },
-          {
-            "key": "failOnError",
-            "type": "Boolean",
-            "value": "true"
-          },
-          {
-            "key": "redacted",
-            "type": "Boolean",
-            "value": "false"
-          }
-        ],
-        "actions": [],
-        "context": [],
-        "tables": [],
-        "lists": [],
-        "variableMappings": [],
-        "variables": [],
-        "results": [],
-        "logs": [],
-        "status": 0,
-        "breakPoint": "None",
-        "datastoreReferences": []
-      },
-      {
-        "name": "Debug Value",
-        "type": "Debug",
-        "version": "1.0.2",
-        "originId": "2fbd031a-07d1-53c4-f318-3e30b9716f82",
-        "actionId": "67e63ac1-5b7e-4f54-b458-96a2ded8919f",
-        "actionDefinitionActionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
-        "disabled": false,
-        "created": "0001-01-01T00:00:00Z",
-        "updated": "0001-01-01T00:00:00Z",
-        "isDeactivated": false,
-        "parameters": [
-          {
-            "key": "echo",
-            "type": "String",
-            "value": "\u0022grasss\u0022"
           },
           {
             "key": "failOnError",
