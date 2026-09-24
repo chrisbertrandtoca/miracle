@@ -7,24 +7,23 @@
     "schemaVersion": "1.0.0"
   },
   "content": {
-    "projectId": "c12ad3d9-568d-4eab-91b2-c912f064b4b8",
-    "description": "asd",
-    "botIds": [
-      "alias:bot-Nightly-Bot-0001"
-    ],
-    "version": 1,
+    "$type": "Activity",
     "actions": [
       {
-        "name": "Debug Value",
-        "type": "Debug",
-        "version": "1.0.2",
-        "originId": "2fbd031a-07d1-53c4-f318-3e30b9716f82",
-        "actionId": "ddf38b96-f12e-4755-a4f0-10bcf6429ca7",
         "actionDefinitionActionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+        "actionId": "ddf38b96-f12e-4755-a4f0-10bcf6429ca7",
+        "actions": [],
+        "breakPoint": "None",
+        "context": [],
+        "created": "0001-01-01T00:00:00\u002B00:00",
+        "createdBy": null,
+        "datastoreReferences": [],
         "disabled": false,
-        "created": "0001-01-01T00:00:00Z",
-        "updated": "0001-01-01T00:00:00Z",
         "isDeactivated": false,
+        "lists": [],
+        "logs": [],
+        "name": "Debug Value",
+        "originId": "2fbd031a-07d1-53c4-f318-3e30b9716f82",
         "parameters": [
           {
             "key": "echo",
@@ -37,27 +36,41 @@
             "value": "true"
           }
         ],
-        "actions": [],
-        "context": [],
+        "results": [],
+        "status": 0,
         "tables": [],
-        "lists": [],
+        "type": "Debug",
+        "updated": "0001-01-01T00:00:00\u002B00:00",
+        "updatedBy": null,
         "variableMappings": [],
         "variables": [],
-        "results": [],
-        "logs": [],
-        "status": 0,
-        "breakPoint": "None",
-        "datastoreReferences": []
+        "version": "1.0.2"
       }
     ],
-    "variableMappings": [],
-    "outputMappings": [],
-    "metaData": [],
-    "deleted": false,
     "activityServiceType": "Gui",
+    "associatedUserId": null,
+    "botIds": [
+      "alias:bot-Nightly-Bot-0001"
+    ],
+    "botPoolId": null,
+    "branch": null,
+    "created": "0001-01-01T00:00:00",
+    "createdBy": null,
+    "datastoreReferences": null,
+    "deleted": false,
+    "description": "asd",
+    "id": null,
+    "metaData": [],
     "migratedToBotUuid": false,
-    "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
+    "name": "activity 1",
+    "outputMappings": [],
+    "projectId": "c12ad3d9-568d-4eab-91b2-c912f064b4b8",
     "resourceId": "65ad7d51-0df5-4518-bc34-fd3a005488c8",
-    "name": "activity 1"
+    "revisionId": "00000000-0000-0000-0000-000000000000",
+    "updated": null,
+    "updatedBy": null,
+    "variableMappings": [],
+    "version": 1,
+    "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4"
   }
 }
