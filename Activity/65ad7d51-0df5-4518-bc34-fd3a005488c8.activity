@@ -29,7 +29,7 @@
           {
             "key": "echo",
             "type": "String",
-            "value": "\u0022asdasd\u0022"
+            "value": "\u0022nok\u0022"
           },
           {
             "key": "failOnError",
