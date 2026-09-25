@@ -36,8 +36,8 @@
   "environmentMappings": [
     {
       "resourceType": "Bot",
-      "aliasKey": "bot-Nightly-Bot-0001",
-      "aliasValue": "alias:bot-Nightly-Bot-0001",
+      "aliasKey": "bot-bot-1",
+      "aliasValue": "alias:bot-bot-1",
       "referencedByResourceIds": [
         "65ad7d51-0df5-4518-bc34-fd3a005488c8"
       ]
