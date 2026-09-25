@@ -46,8 +46,8 @@
   "environmentMappings": [
     {
       "resourceType": "Bot",
-      "aliasKey": "bot-08dd872c-7515-4a7d-8f64-98d6b3c81986",
-      "aliasValue": "alias:bot-08dd872c-7515-4a7d-8f64-98d6b3c81986",
+      "aliasKey": "bot-bot-1",
+      "aliasValue": "alias:bot-bot-1",
       "referencedByResourceIds": [
         "65ad7d51-0df5-4518-bc34-fd3a005488c8"
       ]
