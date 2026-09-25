@@ -8,7 +8,7 @@
     "projectId": "c12ad3d9-568d-4eab-91b2-c912f064b4b8",
     "description": "asd",
     "botIds": [
-      "alias:bot-bot-1"
+      "alias:bot-Nightly-Bot-0001"
     ],
     "version": 1,
     "actions": [

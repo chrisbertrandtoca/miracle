@@ -15,15 +15,7 @@
         "key": "fileDrive",
         "type": "FilesLocator",
         "value": "{\u0022type\u0022:\u0022ObjectStore\u0022}",
-        "revision": "01a0aa3e-fbb0-7496-a537-bd45996896e7"
-      },
-      {
-        "datastoreId": "646bff6b-7dba-4dcb-add7-caf4e71265b8",
-        "uuid": "01a0b4a1-cef5-70fb-a7f4-75fbefd1afc7",
-        "key": "pw",
-        "type": "Password",
-        "value": "*****",
-        "revision": "01a0b4a1-cef5-70fc-91bb-f376fc84245d"
+        "revision": "4df8cde5-b1cf-11f1-9dba-1e66629b2a7b"
       },
       {
         "datastoreId": "646bff6b-7dba-4dcb-add7-caf4e71265b8",
@@ -31,7 +23,7 @@
         "key": "Songs",
         "type": "TableV3",
         "value": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
-        "revision": "01a0aa3f-835f-7079-979b-e3b6d85c8bf1"
+        "revision": "4df8f68f-b1cf-11f1-9dba-1e66629b2a7b"
       }
     ],
     "tables": [
