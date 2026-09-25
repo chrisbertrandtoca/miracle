@@ -2,15 +2,13 @@
   "metadata": {
     "id": "71cf0be6-8887-4f62-9a24-60f36271c933",
     "platformVersion": "10.0.0",
-    "createdAt": "2026-09-16T12:44:00Z",
-    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
     "schemaVersion": "1.0.0"
   },
   "content": {
     "pageId": "71cf0be6-8887-4f62-9a24-60f36271c933",
     "dashBoardId": "6aaa8f0f3611740b4e66a212",
     "title": "Home",
-    "layout": "{\u0022version\u0022:\u00222\u0022,\u0022rootComponentId\u0022:\u00224327917d-7e94-4255-9e33-5b3745930e73\u0022,\u0022components\u0022:{\u00224327917d-7e94-4255-9e33-5b3745930e73\u0022:{\u0022id\u0022:\u00224327917d-7e94-4255-9e33-5b3745930e73\u0022,\u0022definitionId\u0022:\u0022@tocabot/app/page-root\u0022,\u0022options\u0022:{},\u0022slots\u0022:{\u0022root\u0022:[]},\u0022classes\u0022:{\u0022root\u0022:[]}}},\u0022viewports\u0022:{\u0022414\u0022:[],\u0022768\u0022:[],\u00221280\u0022:[],\u00221440\u0022:[]}}",
+    "layout": "{\u0022version\u0022:\u00222\u0022,\u0022rootComponentId\u0022:\u00224327917d-7e94-4255-9e33-5b3745930e73\u0022,\u0022components\u0022:{\u00224327917d-7e94-4255-9e33-5b3745930e73\u0022:{\u0022id\u0022:\u00224327917d-7e94-4255-9e33-5b3745930e73\u0022,\u0022definitionId\u0022:\u0022@tocabot/app/page-root\u0022,\u0022options\u0022:{},\u0022slots\u0022:{\u0022root\u0022:[\u0022e11064c6-1076-4708-9149-f2cec4afadf4\u0022]},\u0022classes\u0022:{\u0022root\u0022:[]}},\u0022e11064c6-1076-4708-9149-f2cec4afadf4\u0022:{\u0022id\u0022:\u0022e11064c6-1076-4708-9149-f2cec4afadf4\u0022,\u0022name\u0022:\u0022Navbar_ABfk\u0022,\u0022definitionId\u0022:\u0022bfb953ad-40cf-4c63-acde-9920e8c0ff29\u0022,\u0022slots\u0022:{},\u0022options\u0022:{\u0022title\u0022:\u0022My Dash\u0022,\u0022color\u0022:\u0022primary\u0022,\u0022elevation\u0022:2,\u0022hideNav\u0022:false,\u0022roundedCorners\u0022:true,\u0022linkSpacing\u0022:2,\u0022showUser\u0022:false,\u0022customMenu\u0022:false,\u0022alwaysBurger\u0022:false},\u0022slotProps\u0022:{},\u0022classes\u0022:{\u0022root\u0022:[]}}},\u0022viewports\u0022:{\u0022414\u0022:[],\u0022768\u0022:[],\u00221280\u0022:[],\u00221440\u0022:[]}}",
     "parameters": [],
     "deleted": false,
     "version": "0.0.0",

@@ -1,7 +1,13 @@
 {
   "dependencies": {
     "actionDetails": [],
-    "componentDetails": [],
+    "componentDetails": [
+      {
+        "definitionId": "bfb953ad-40cf-4c63-acde-9920e8c0ff29",
+        "name": "Navbar",
+        "version": "0.1.1"
+      }
+    ],
     "appActionsDetails": []
   }
 }
