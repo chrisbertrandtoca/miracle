@@ -10,129 +10,52 @@
     "description": "",
     "pages": [
       {
-        "id": "b864ce56-48e8-4bb8-a2cc-82f087c9737f",
-        "pageId": "6aaa8f103611740b4e66a213",
-        "pageEntityId": "71cf0be6-8887-4f62-9a24-60f36271c933",
+        "id": "debe5a7c-669d-4217-8834-c4948d001352",
+        "pageId": "6aaabc7c9440185ed5cd6184",
+        "pageEntityId": "bf6073c5-8608-425d-b4fc-ebb8b4e56689",
+        "slug": "page-2",
+        "name": "page 2",
+        "hidden": false,
+        "restricted": false,
+        "parameters": [
+          {
+            "key": "modalFullHeight",
+            "type": "boolean",
+            "value": "false"
+          },
+          {
+            "key": "modalWidth",
+            "type": "string",
+            "value": "\u0022lg\u0022"
+          },
+          {
+            "key": "dynamic",
+            "type": "boolean",
+            "value": "false"
+          },
+          {
+            "key": "dynamicSource",
+            "type": "parameter"
+          },
+          {
+            "key": "dynamicKey",
+            "type": "string"
+          },
+          {
+            "key": "modalTitle",
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "4151abd6-9d3a-4082-b738-36bdf31249e3",
+        "pageId": "6ab683016c57dc670a7739a0",
+        "pageEntityId": "586e68eb-50f2-4c65-9b78-214588a78d65",
         "slug": "",
         "name": "Home",
         "hidden": false,
         "restricted": false,
         "parameters": []
-      },
-      {
-        "id": "a401c35a-6e74-44c8-8cd8-bc1bc8735215",
-        "pageId": "6ab3d1a9d030e385c21e6653",
-        "pageEntityId": "a9c79fec-b490-41a9-a9f2-7d9cec6e00c6",
-        "slug": "new-file",
-        "name": "new file",
-        "hidden": false,
-        "restricted": false,
-        "parameters": [
-          {
-            "key": "modalFullHeight",
-            "type": "boolean",
-            "value": "false"
-          },
-          {
-            "key": "modalWidth",
-            "type": "string",
-            "value": "\u0022lg\u0022"
-          },
-          {
-            "key": "dynamic",
-            "type": "boolean",
-            "value": "false"
-          },
-          {
-            "key": "dynamicSource",
-            "type": "parameter"
-          },
-          {
-            "key": "dynamicKey",
-            "type": "string"
-          },
-          {
-            "key": "modalTitle",
-            "type": "boolean"
-          }
-        ]
-      },
-      {
-        "id": "1ba97d11-c1ae-438a-8baf-a46f2710dc8d",
-        "pageId": "6ab3d1cbd030e385c21e6654",
-        "pageEntityId": "b3e309a4-0b92-4c2d-98e1-90d7ce58422a",
-        "slug": "modded",
-        "name": "modded",
-        "hidden": false,
-        "restricted": false,
-        "parameters": [
-          {
-            "key": "modalFullHeight",
-            "type": "boolean",
-            "value": "false"
-          },
-          {
-            "key": "modalWidth",
-            "type": "string",
-            "value": "\u0022lg\u0022"
-          },
-          {
-            "key": "dynamic",
-            "type": "boolean",
-            "value": "false"
-          },
-          {
-            "key": "dynamicSource",
-            "type": "parameter"
-          },
-          {
-            "key": "dynamicKey",
-            "type": "string"
-          },
-          {
-            "key": "modalTitle",
-            "type": "boolean",
-            "value": "true"
-          }
-        ]
-      },
-      {
-        "id": "54d01154-9a4f-42ff-a003-905ee36afb05",
-        "pageId": "6ab3d274d030e385c21e6656",
-        "pageEntityId": "18313b1f-c406-4665-9526-82812801d1a1",
-        "slug": "will-delete",
-        "name": "will delete",
-        "hidden": false,
-        "restricted": false,
-        "parameters": [
-          {
-            "key": "modalFullHeight",
-            "type": "boolean",
-            "value": "false"
-          },
-          {
-            "key": "modalWidth",
-            "type": "string",
-            "value": "\u0022lg\u0022"
-          },
-          {
-            "key": "dynamic",
-            "type": "boolean",
-            "value": "false"
-          },
-          {
-            "key": "dynamicSource",
-            "type": "parameter"
-          },
-          {
-            "key": "dynamicKey",
-            "type": "string"
-          },
-          {
-            "key": "modalTitle",
-            "type": "boolean"
-          }
-        ]
       }
     ],
     "dependencies": [],

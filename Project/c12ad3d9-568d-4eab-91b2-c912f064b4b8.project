@@ -2,15 +2,15 @@
   "metadata": {
     "id": "c12ad3d9-568d-4eab-91b2-c912f064b4b8",
     "platformVersion": "10.0.0",
+    "createdAt": "2026-09-16T12:43:40Z",
+    "createdBy": "dc8d33b8-9390-4a71-a3d4-05c15f955d6c",
     "schemaVersion": "1.0.0"
   },
   "content": {
     "projectId": "c12ad3d9-568d-4eab-91b2-c912f064b4b8",
     "description": "asd",
     "deactivated": false,
-    "actionGroups": [
-      "164f887e-b01c-4776-bb86-104fbc397459"
-    ],
+    "actionGroups": [],
     "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
     "resourceId": "c12ad3d9-568d-4eab-91b2-c912f064b4b8",
     "name": "Automation 1"
