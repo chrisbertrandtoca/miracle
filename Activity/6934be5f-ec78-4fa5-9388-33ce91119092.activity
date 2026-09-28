@@ -84,6 +84,46 @@
         "status": 0,
         "breakPoint": "None",
         "datastoreReferences": []
+      },
+      {
+        "name": "Random",
+        "type": "RandomFunction",
+        "version": "1.0.2",
+        "originId": "a384a4fd-353d-529b-4c97-c29fa01e10ab",
+        "actionId": "5fca20cc-baec-44ef-9672-0f1a17dff687",
+        "actionDefinitionActionId": "5b0b7b86-9dea-4bc6-acf5-73a4bd3a4aa4",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "startnum",
+            "type": "Number",
+            "value": "5"
+          },
+          {
+            "key": "endnum",
+            "type": "Number",
+            "value": "1"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
       }
     ],
     "variableMappings": [],

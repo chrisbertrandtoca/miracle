@@ -10,6 +10,11 @@
         "definitionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
         "name": "Debug Value",
         "version": "1.0.2"
+      },
+      {
+        "definitionId": "5b0b7b86-9dea-4bc6-acf5-73a4bd3a4aa4",
+        "name": "Random",
+        "version": "1.0.2"
       }
     ],
     "componentDetails": [],
