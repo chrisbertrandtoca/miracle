@@ -3,11 +3,6 @@
   "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
   "resources": [
     {
-      "type": "GitProjectResource",
-      "id": "c12ad3d9-568d-4eab-91b2-c912f064b4b8",
-      "path": "Project/c12ad3d9-568d-4eab-91b2-c912f064b4b8.project"
-    },
-    {
       "type": "GitActivityResource",
       "id": "f1a1007f-0922-4ebd-b7b9-d7aa2e2bc50a",
       "path": "Activity/f1a1007f-0922-4ebd-b7b9-d7aa2e2bc50a.activity"
@@ -36,8 +31,8 @@
   "environmentMappings": [
     {
       "resourceType": "Bot",
-      "aliasKey": "bot-bot-1",
-      "aliasValue": "alias:bot-bot-1",
+      "aliasKey": "bot-97ff608c-1b23-4078-a9a3-f926397fbd12",
+      "aliasValue": "alias:bot-97ff608c-1b23-4078-a9a3-f926397fbd12",
       "referencedByResourceIds": [
         "65ad7d51-0df5-4518-bc34-fd3a005488c8"
       ]

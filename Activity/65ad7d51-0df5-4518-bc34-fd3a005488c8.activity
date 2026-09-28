@@ -8,7 +8,7 @@
     "projectId": "c12ad3d9-568d-4eab-91b2-c912f064b4b8",
     "description": "asd",
     "botIds": [
-      "alias:bot-bot-1"
+      "alias:bot-97ff608c-1b23-4078-a9a3-f926397fbd12"
     ],
     "version": 1,
     "actions": [
@@ -88,6 +88,81 @@
             "key": "redacted",
             "type": "Boolean",
             "value": "false"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
+      },
+      {
+        "name": "Image Click",
+        "type": "ImageClick",
+        "version": "1.0.10",
+        "originId": "c3df3fb3-a748-013c-503e-dfe196bd3b51",
+        "actionId": "94e9c643-0c5b-4f35-959c-b589eea7f21c",
+        "actionDefinitionActionId": "7c8485d8-788b-4c9c-b60d-81df1715dc80",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "image",
+            "type": "Image",
+            "value": "\u002201a0e77c-6b0f-76c1-a120-1bf584cfdbb2\u0022"
+          },
+          {
+            "key": "imageBox",
+            "type": "BoundingBox",
+            "value": "{\u0022x\u0022:1406,\u0022y\u0022:340,\u0022w\u0022:113,\u0022h\u0022:74}"
+          },
+          {
+            "key": "regionArea",
+            "type": "BoundingBox",
+            "value": "{\u0022x\u0022:628,\u0022y\u0022:328,\u0022w\u0022:1027,\u0022h\u0022:442}"
+          },
+          {
+            "key": "clickType",
+            "type": "String",
+            "value": "\u0022Left\u0022"
+          },
+          {
+            "key": "colorMatch",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "templateThreshold",
+            "type": "Number",
+            "value": "0.9"
+          },
+          {
+            "key": "delay",
+            "type": "Number",
+            "value": "0"
           }
         ],
         "actions": [],
