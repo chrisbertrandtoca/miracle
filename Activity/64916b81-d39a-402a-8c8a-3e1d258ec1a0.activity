@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "id": "64916b81-d39a-402a-8c8a-3e1d258ec1a0",
+    "platformVersion": "10.0.0",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "c12ad3d9-568d-4eab-91b2-c912f064b4b8",
+    "description": "asd",
+    "botIds": [],
+    "version": 1,
+    "actions": [],
+    "variableMappings": [],
+    "outputMappings": [],
+    "metaData": [],
+    "deleted": false,
+    "activityServiceType": "Stateless",
+    "migratedToBotUuid": false,
+    "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
+    "resourceId": "64916b81-d39a-402a-8c8a-3e1d258ec1a0",
+    "name": "pacl"
+  }
+}

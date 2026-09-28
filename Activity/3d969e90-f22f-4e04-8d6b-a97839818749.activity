@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "id": "3d969e90-f22f-4e04-8d6b-a97839818749",
+    "platformVersion": "10.0.0",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "c12ad3d9-568d-4eab-91b2-c912f064b4b8",
+    "description": "asd",
+    "botIds": [],
+    "version": 1,
+    "actions": [],
+    "variableMappings": [],
+    "outputMappings": [],
+    "metaData": [],
+    "deleted": false,
+    "activityServiceType": "Stateless",
+    "migratedToBotUuid": false,
+    "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
+    "resourceId": "3d969e90-f22f-4e04-8d6b-a97839818749",
+    "name": "nnnnwweee"
+  }
+}

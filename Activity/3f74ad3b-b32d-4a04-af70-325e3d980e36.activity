@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "id": "3f74ad3b-b32d-4a04-af70-325e3d980e36",
+    "platformVersion": "10.0.0",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "e024dcd6-e675-49a8-bfe8-584422b24269",
+    "description": "aaa",
+    "botIds": [
+      "alias:bot-97ff608c-1b23-4078-a9a3-f926397fbd12"
+    ],
+    "version": 1,
+    "actions": [],
+    "variableMappings": [],
+    "outputMappings": [],
+    "metaData": [],
+    "deleted": false,
+    "activityServiceType": "Gui",
+    "migratedToBotUuid": false,
+    "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
+    "resourceId": "3f74ad3b-b32d-4a04-af70-325e3d980e36",
+    "name": "aaa"
+  }
+}
