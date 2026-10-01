@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "actionDetails": [
+      {
+        "definitionId": "a62ecaca-85b3-4f5d-b00b-d6cdc7023daa",
+        "name": "Repeat",
+        "version": "1.0.4"
+      },
+      {
+        "definitionId": "13724153-c134-4937-8b1f-5e051ac0bdbc",
+        "name": "Mouse Move",
+        "version": "1.0.1"
+      },
+      {
+        "definitionId": "9cdd96ce-6264-4733-8c9a-6277729df3d9",
+        "name": "Image Search",
+        "version": "1.0.6"
+      }
+    ],
+    "componentDetails": [],
+    "appActionsDetails": []
+  }
+}

@@ -58,7 +58,15 @@
         "parameters": []
       }
     ],
-    "dependencies": [],
+    "dependencies": [
+      {
+        "entityId": "miracle",
+        "type": "listener",
+        "meta": {
+          "apiKey": "15b8f604-886d-4126-8c9e-1577d03772de"
+        }
+      }
+    ],
     "parameters": [
       {
         "key": "viewportMigration",

@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "id": "56b0dad8-152c-4815-a65b-22310a439dc1",
+    "platformVersion": "10.0.0",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "c12ad3d9-568d-4eab-91b2-c912f064b4b8",
+    "description": "aaa",
+    "botIds": [
+      "alias:bot-bot-1"
+    ],
+    "version": 1,
+    "actions": [
+      {
+        "name": "Repeat",
+        "type": "Repeat",
+        "version": "1.0.4",
+        "originId": "06a0b7b6-0858-2ea6-7d57-81b356c5ddba",
+        "actionId": "7205f762-198f-49ff-826b-7cdc51068e85",
+        "actionDefinitionActionId": "a62ecaca-85b3-4f5d-b00b-d6cdc7023daa",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "counter",
+            "type": "Number",
+            "value": "10"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "-1"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [
+          {
+            "name": "Mouse Move",
+            "type": "MouseMove",
+            "version": "1.0.1",
+            "originId": "a34fdc6c-709f-b1d9-0461-8df134a754c2",
+            "actionId": "2b12ed59-7c1e-41b3-9911-9b0a1d8657f5",
+            "actionDefinitionActionId": "13724153-c134-4937-8b1f-5e051ac0bdbc",
+            "disabled": false,
+            "created": "0001-01-01T00:00:00Z",
+            "updated": "0001-01-01T00:00:00Z",
+            "isDeactivated": false,
+            "parameters": [
+              {
+                "key": "coordinates",
+                "type": "Coordinates",
+                "value": "{\u0022x\u0022:789,\u0022y\u0022:367}"
+              },
+              {
+                "key": "failOnError",
+                "type": "Boolean",
+                "value": "true"
+              }
+            ],
+            "actions": [],
+            "context": [],
+            "tables": [],
+            "lists": [],
+            "variableMappings": [],
+            "variables": [],
+            "results": [],
+            "logs": [],
+            "status": 0,
+            "breakPoint": "None",
+            "datastoreReferences": []
+          },
+          {
+            "name": "Mouse Move",
+            "type": "MouseMove",
+            "version": "1.0.1",
+            "originId": "a34fdc6c-709f-b1d9-0461-8df134a754c2",
+            "actionId": "c5961f6e-eb5b-4781-ab2d-78b3d8045de6",
+            "actionDefinitionActionId": "13724153-c134-4937-8b1f-5e051ac0bdbc",
+            "disabled": false,
+            "created": "0001-01-01T00:00:00Z",
+            "updated": "0001-01-01T00:00:00Z",
+            "isDeactivated": false,
+            "parameters": [
+              {
+                "key": "coordinates",
+                "type": "Coordinates",
+                "value": "{\u0022x\u0022:420,\u0022y\u0022:227}"
+              },
+              {
+                "key": "failOnError",
+                "type": "Boolean",
+                "value": "true"
+              }
+            ],
+            "actions": [],
+            "context": [],
+            "tables": [],
+            "lists": [],
+            "variableMappings": [],
+            "variables": [],
+            "results": [],
+            "logs": [],
+            "status": 0,
+            "breakPoint": "None",
+            "datastoreReferences": []
+          },
+          {
+            "name": "Image Search",
+            "type": "ImageSearch",
+            "version": "1.0.6",
+            "originId": "5799964b-449e-3f30-385a-78614d31ca9e",
+            "actionId": "6acec3c8-9970-4f2b-b21e-8acca38677f1",
+            "actionDefinitionActionId": "9cdd96ce-6264-4733-8c9a-6277729df3d9",
+            "disabled": false,
+            "created": "0001-01-01T00:00:00Z",
+            "updated": "0001-01-01T00:00:00Z",
+            "isDeactivated": false,
+            "parameters": [
+              {
+                "key": "imageBox",
+                "type": "BoundingBox",
+                "value": "{\u0022x\u0022:540,\u0022y\u0022:316,\u0022w\u0022:379,\u0022h\u0022:73}"
+              },
+              {
+                "key": "image",
+                "type": "Image",
+                "value": "\u002201a0ed24-9c5f-7773-b527-aec6a6792993\u0022"
+              },
+              {
+                "key": "colorMatch",
+                "type": "Boolean",
+                "value": "false"
+              },
+              {
+                "key": "timeout",
+                "type": "Number",
+                "value": "30000"
+              },
+              {
+                "key": "errorOnTimeout",
+                "type": "Boolean",
+                "value": "true"
+              },
+              {
+                "key": "failOnError",
+                "type": "Boolean",
+                "value": "true"
+              },
+              {
+                "key": "templateThreshold",
+                "type": "Number",
+                "value": "0.9"
+              }
+            ],
+            "actions": [],
+            "context": [],
+            "tables": [],
+            "lists": [],
+            "variableMappings": [],
+            "variables": [],
+            "results": [],
+            "logs": [],
+            "status": 0,
+            "breakPoint": "None",
+            "datastoreReferences": []
+          }
+        ],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
+      }
+    ],
+    "variableMappings": [],
+    "outputMappings": [],
+    "metaData": [],
+    "deleted": false,
+    "activityServiceType": "Gui",
+    "migratedToBotUuid": false,
+    "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
+    "resourceId": "56b0dad8-152c-4815-a65b-22310a439dc1",
+    "name": "OCR"
+  }
+}

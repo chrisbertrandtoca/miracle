@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "id": "c1bf5e0c-8f6b-4601-9d38-d65616bfcd75",
+    "platformVersion": "10.0.0",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "listenerId": "c1bf5e0c-8f6b-4601-9d38-d65616bfcd75",
+    "version": "",
+    "public": true,
+    "description": "miracle",
+    "apiKeys": [
+      {
+        "name": "toca.app.a958202f-3355-423d-a985-0197a4dd7d4f",
+        "expirationDate": "2100-01-01T00:00:00Z",
+        "key": "15b8f604-886d-4126-8c9e-1577d03772de"
+      }
+    ],
+    "inputs": [],
+    "workflowId": "214778fe-bfed-49b5-b8a3-2807e7ae38cf",
+    "deactivated": false,
+    "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",
+    "resourceId": "c1bf5e0c-8f6b-4601-9d38-d65616bfcd75",
+    "name": "miracle"
+  }
+}

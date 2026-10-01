@@ -11,22 +11,102 @@
     "datastoreParameters": [
       {
         "datastoreId": "646bff6b-7dba-4dcb-add7-caf4e71265b8",
+        "uuid": "01a0f7a4-1ca7-7416-847b-4e5fa009a489",
+        "key": "Artists",
+        "type": "TableV3",
+        "value": "01a0f7a4-1ca7-7416-847b-4e5fa009a489"
+      },
+      {
+        "datastoreId": "646bff6b-7dba-4dcb-add7-caf4e71265b8",
         "uuid": "01a0aa3e-fbad-75ed-b255-afe6e12b9009",
         "key": "fileDrive",
         "type": "FilesLocator",
-        "value": "{\u0022type\u0022:\u0022ObjectStore\u0022}",
-        "revision": "4df8cde5-b1cf-11f1-9dba-1e66629b2a7b"
+        "value": "{\u0022type\u0022:\u0022ObjectStore\u0022}"
       },
       {
         "datastoreId": "646bff6b-7dba-4dcb-add7-caf4e71265b8",
         "uuid": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
         "key": "Songs",
         "type": "TableV3",
-        "value": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
-        "revision": "4df8f68f-b1cf-11f1-9dba-1e66629b2a7b"
+        "value": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6"
       }
     ],
     "tables": [
+      {
+        "id": "01a0f7a4-1ca7-7416-847b-4e5fa009a489",
+        "name": "Artists",
+        "datastoreParameterId": "01a0f7a4-1ca7-7416-847b-4e5fa009a489",
+        "model": {
+          "id": {
+            "name": "id",
+            "label": "id",
+            "type": "uuid",
+            "isPrimaryKey": true,
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": true,
+              "dataType": "Uuid"
+            }
+          },
+          "created": {
+            "name": "created",
+            "label": "Created",
+            "type": "datetime",
+            "isPrimaryKey": false,
+            "metaData": {
+              "autoGenerate": true
+            },
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false,
+              "dataType": "DateTime"
+            }
+          },
+          "updated": {
+            "name": "updated",
+            "label": "Updated",
+            "type": "datetime",
+            "isPrimaryKey": false,
+            "metaData": {
+              "autoGenerate": true,
+              "autoUpdate": true
+            },
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false,
+              "dataType": "DateTime"
+            }
+          },
+          "name": {
+            "name": "name",
+            "label": "Name",
+            "type": "string",
+            "isPrimaryKey": false,
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false,
+              "dataType": "Text"
+            }
+          }
+        },
+        "relationships": [],
+        "selectQuery": "SELECT c.\u0060created\u0060 AS \u0027c.created\u0027,c.\u0060id\u0060 AS \u0027c.id\u0027,c.\u0060name\u0060 AS \u0027c.name\u0027,c.\u0060updated\u0060 AS \u0027c.updated\u0027 FROM \u006001a0f7a4-1ca7-7416-847b-4e5fa009a489\u0060 c",
+        "nonRecursiveSelectQuery": "SELECT c.* FROM \u006001a0f7a4-1ca7-7416-847b-4e5fa009a489\u0060 c ",
+        "indexes": [
+          {
+            "name": "PRIMARY",
+            "columns": {
+              "id": "Ascending"
+            },
+            "unique": true,
+            "type": "BTree"
+          }
+        ],
+        "position": [
+          1,
+          15
+        ]
+      },
       {
         "id": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
         "name": "Songs",
@@ -83,20 +163,34 @@
               "dataType": "Text"
             }
           },
-          "year_REleased": {
-            "name": "year_REleased",
-            "label": "Year REleased",
-            "type": "date",
+          "artists": {
+            "name": "artists",
+            "label": "Artists",
+            "type": "tableV3:Artists",
             "isPrimaryKey": false,
+            "foreignKeyTable": "01a0f7a4-1ca7-7416-847b-4e5fa009a489",
             "constraints": {
               "isUnique": false,
-              "isNotNull": false,
-              "dataType": "Date"
-            }
+              "isNotNull": false
+            },
+            "onDeleteOperation": "None"
           }
         },
-        "relationships": [],
-        "selectQuery": "SELECT c.\u0060created\u0060 AS \u0027c.created\u0027,c.\u0060id\u0060 AS \u0027c.id\u0027,c.\u0060name\u0060 AS \u0027c.name\u0027,c.\u0060updated\u0060 AS \u0027c.updated\u0027,c.\u0060year_REleased\u0060 AS \u0027c.year_REleased\u0027 FROM \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 c",
+        "relationships": [
+          {
+            "fromTableName": "Songs",
+            "fromTable": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
+            "toTableName": "Artists",
+            "toTable": "01a0f7a4-1ca7-7416-847b-4e5fa009a489",
+            "alias": "A",
+            "fromTableAlias": "c",
+            "fromColumnName": "artists",
+            "toColumnName": "Id",
+            "isFromLinkingTable": false,
+            "isToLinkingTable": false
+          }
+        ],
+        "selectQuery": "SELECT c.\u0060artists\u0060 AS \u0027c.artists\u0027,c.\u0060created\u0060 AS \u0027c.created\u0027,c.\u0060id\u0060 AS \u0027c.id\u0027,c.\u0060name\u0060 AS \u0027c.name\u0027,c.\u0060updated\u0060 AS \u0027c.updated\u0027,A.\u0060created\u0060 AS \u0027A.created\u0027,A.\u0060id\u0060 AS \u0027A.id\u0027,A.\u0060name\u0060 AS \u0027A.name\u0027,A.\u0060updated\u0060 AS \u0027A.updated\u0027 FROM \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 c  LEFT JOIN \u006001a0f7a4-1ca7-7416-847b-4e5fa009a489\u0060 A ON c.\u0060artists\u0060 = A.\u0060Id\u0060",
         "nonRecursiveSelectQuery": "SELECT c.* FROM \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 c ",
         "indexes": [
           {
@@ -111,11 +205,19 @@
         "position": [
           1,
           40
-        ],
-        "revision": "01a0aa3f-835f-7079-979b-e3b6d85c8bf1"
+        ]
       }
     ],
     "tableMigrations": [
+      {
+        "revisionId": "01a0f7a5-5946-7338-97d6-f5cc62f240dc",
+        "tableName": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
+        "created": "2026-10-01T13:26:43Z",
+        "upSql": "ALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 ADD COLUMN IF NOT EXISTS \u0060artists\u0060 UUID(16) NULL REFERENCES \u006001a0f7a4-1ca7-7416-847b-4e5fa009a489\u0060(Id) ON DELETE RESTRICT;\n",
+        "upFriendlyName": "Add column \u0060artists\u0060 to table \u0060Songs\u0060",
+        "downSql": "ALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 DROP COLUMN IF EXISTS \u0060artists\u0060;",
+        "downFriendlyName": "Drop column \u0060artists\u0060 from table \u0060Songs\u0060"
+      },
       {
         "revisionId": "01a0aa3f-5479-77f6-b117-73a41ad8f193",
         "tableName": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
@@ -133,6 +235,24 @@
         "upFriendlyName": "Add column \u0060year_REleased\u0060 to table \u0060Songs\u0060",
         "downSql": "ALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 DROP COLUMN IF EXISTS \u0060year_REleased\u0060;",
         "downFriendlyName": "Drop column \u0060year_REleased\u0060 from table \u0060Songs\u0060"
+      },
+      {
+        "revisionId": "01a0f7a2-fbcc-704d-80f3-a2d0098e896a",
+        "tableName": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
+        "created": "2026-10-01T13:24:08Z",
+        "upSql": "SET @constraint_name = (\n    SELECT CONSTRAINT_NAME \n    FROM information_schema.KEY_COLUMN_USAGE \n    WHERE TABLE_SCHEMA = \u0027TablesV3\u0027 \n      AND TABLE_NAME = \u002701a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0027 \n      AND COLUMN_NAME = \u0027year_REleased\u0027 \n      AND REFERENCED_TABLE_NAME IS NOT NULL\n    LIMIT 1\n);\n\nSET @sql = IF(@constraint_name IS NOT NULL,\n    CONCAT(\u0027ALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 DROP FOREIGN KEY \u0060\u0027, @constraint_name, \u0027\u0060\u0027),\n    \u0027SELECT \u0027\u0027No foreign key constraint found\u0027\u0027 AS message\u0027\n);\n\nPREPARE stmt FROM @sql;\nEXECUTE stmt;\nDEALLOCATE PREPARE stmt;\nALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 MODIFY \u0060year_REleased\u0060 DATE  NULL;\n",
+        "upFriendlyName": "Change column type of \u0060year_REleased\u0060 in table \u0060Songs\u0060",
+        "downSql": "ALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 MODIFY \u0060year_REleased\u0060 DATE NULL;",
+        "downFriendlyName": "Revert column type change of \u0060year_REleased\u0060 in table \u0060Songs\u0060"
+      },
+      {
+        "revisionId": "01a0f7a3-12fc-7713-a19b-486f3aa55e99",
+        "tableName": "01a0aa3f-25f0-74c1-9ccf-7df3c26ffff6",
+        "created": "2026-10-01T13:24:14Z",
+        "upSql": "ALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 DROP COLUMN IF EXISTS \u0060year_REleased\u0060;",
+        "upFriendlyName": "Drop column \u0060year_REleased\u0060 from table \u0060year_REleased\u0060",
+        "downSql": "ALTER TABLE \u006001a0aa3f-25f0-74c1-9ccf-7df3c26ffff6\u0060 ADD COLUMN \u0060year_REleased\u0060 date NULL;",
+        "downFriendlyName": "Revert column drop of \u0060year_REleased\u0060 from table \u0060year_REleased\u0060"
       }
     ],
     "workspaceId": "85494ee9-09d1-4b00-8ee7-7e4b2c87eca4",

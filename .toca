@@ -36,6 +36,14 @@
       "referencedByResourceIds": [
         "65ad7d51-0df5-4518-bc34-fd3a005488c8"
       ]
+    },
+    {
+      "resourceType": "Bot",
+      "aliasKey": "bot-bot-1",
+      "aliasValue": "alias:bot-bot-1",
+      "referencedByResourceIds": [
+        "56b0dad8-152c-4815-a65b-22310a439dc1"
+      ]
     }
   ]
 }
